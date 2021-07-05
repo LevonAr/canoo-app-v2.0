@@ -8,7 +8,7 @@ This application uses interactive tables to let users Create, Read, Update and D
 
 Here is a simple overview diagram of this application's architecture:
 
-![Architecture Diagram](https://github.com/LevonAr/canoo-app-v1.0/blob/main/CanooDiagram.svg)
+![Architecture Diagram](https://github.com/LevonAr/canoo-app-v2.0/blob/main/CanooDiagram.svg)
   
 
 ### Features of the project:
