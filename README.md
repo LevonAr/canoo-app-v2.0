@@ -11,7 +11,7 @@ Here is a simple overview diagram of this application's architecture:
 ![Architecture Diagram](https://github.com/LevonAr/canoo-app-v2.0/blob/main/CanooDiagram.svg)
   
 
-### Features of the project:
+### Features of the project
 
 CRUD operations for lights and thermostats.
   
