@@ -1,0 +1,74 @@
+#lights requests
+
+--- create lights----
+
+    curl --location --request POST 'http://127.0.0.1:8000/add_light' \
+    --header 'Content-Type: application/json' \
+    --data-raw '{
+        "light_name":"light4",
+        "light_color":"red",
+        "light_state":true
+    }'
+
+
+--- update lights----
+
+    curl --location --request POST 'http://127.0.0.1:8000/update_light' \
+    --header 'Content-Type: application/json' \
+    --data-raw '{
+        "light_state":false,
+        "id":"60e00182edaadfbdc7761b3e"
+    }'
+
+
+--- list lights----
+
+    curl --location --request GET 'http://127.0.0.1:8000/list_lights' \
+    --data-raw ''
+
+
+--- delete lights----
+
+    curl --location --request DELETE 'http://127.0.0.1:8000/delete_light/60e00182edaadfbdc7761b3e' \
+    --data-raw ''
+
+
+# Thermostat requests
+
+
+--- create Thermostat----
+
+    curl --location --request POST 'http://127.0.0.1:8000/add_thermostat' \
+    --header 'Content-Type: application/json' \
+    --data-raw '{
+        "thermostat_name":"living",
+        "temperature":"80.5"
+    }'
+
+
+--- update Thermostat----
+
+    curl --location --request POST 'http://127.0.0.1:8000/update_thermostat' \
+    --header 'Content-Type: application/json' \
+    --data-raw '{
+        "id":"60e002efedaadfbdc7761b3f",
+        "temperature":"90.5"
+    }'
+
+
+--- list Thermostat----
+
+    curl --location --request GET 'http://127.0.0.1:8000/list_thermostat' \
+    --data-raw ''
+
+
+--- delete Thermostat----
+
+    curl --location --request DELETE 'http://127.0.0.1:8000/delete_thermostat/60dfff6abd201394a82b436c' \
+    --data-raw ''
+
+
+--- history logs----
+
+    curl --location --request GET 'http://127.0.0.1:8000/logs' \
+    --data-raw ''
