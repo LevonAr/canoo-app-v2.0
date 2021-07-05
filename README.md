@@ -12,7 +12,12 @@ Here is a simple overview diagram of this application's architecture:
   
 
 ### Features of the project:
-Frontend backed by Next.js giving optimized server side rendering
+
+CRUD operations for lights and thermostats.
+  
+Timestamped, detailed log history of events.
+  
+Frontend backed by Next.js, giving optimized server side rendering
   
 Clean design and responsive pages.
   
