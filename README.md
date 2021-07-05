@@ -75,7 +75,7 @@ Browser should display "hello world!", indicating server is operating properly.
 #### `docker-compose up -d`(this may take some time for first build).
 Once running, navigate to: http://localhost:3000
 
-Browser should display application.
+Browser should display application. Keep in mind Docker will build a fresh database, so there will be no Light or Thermostat entries in the beginning, you should add/edit/remove them using the interface.
 
 
 # Testing
