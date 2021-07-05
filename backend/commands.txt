@@ -17,7 +17,7 @@
     --header 'Content-Type: application/json' \
     --data-raw '{
         "light_state":false,
-        "id":"60e00182edaadfbdc7761b3e"
+        "id":"<light_id>"
     }'
 
 
@@ -29,7 +29,7 @@
 
 --- delete lights----
 
-    curl --location --request DELETE 'http://127.0.0.1:8000/delete_light/60e00182edaadfbdc7761b3e' \
+    curl --location --request DELETE 'http://127.0.0.1:8000/delete_light/<light_id>' \
     --data-raw ''
 
 
@@ -51,7 +51,7 @@
     curl --location --request POST 'http://127.0.0.1:8000/update_thermostat' \
     --header 'Content-Type: application/json' \
     --data-raw '{
-        "id":"60e002efedaadfbdc7761b3f",
+        "id":"<thermostat_id>",
         "temperature":"90.5"
     }'
 
@@ -64,7 +64,7 @@
 
 --- delete Thermostat----
 
-    curl --location --request DELETE 'http://127.0.0.1:8000/delete_thermostat/60dfff6abd201394a82b436c' \
+    curl --location --request DELETE 'http://127.0.0.1:8000/delete_thermostat/<thermostat_id>' \
     --data-raw ''
 
 
