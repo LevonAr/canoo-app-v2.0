@@ -4,7 +4,7 @@
   
 ### Overview
   
-This application uses interactive tables to let users Create, Read, Update and Delete (CRUD) lights and thermostats for home automation. There is also a history log table that tracks all these events. This is done by connecting a React UI frontend to a Flask + MongoDB backend through a REST API. Detailed documentation on the REST API commands can be found in: commands.txt.
+This application uses interactive tables to let users Create, Read, Update and Delete (CRUD) lights and thermostats for home automation. There is also a history log table that tracks all these events. This is done by connecting a React UI frontend to a Flask + MongoDB backend through a REST API. Detailed documentation on the REST API commands can be found in: [commands.txt](https://github.com/LevonAr/canoo-app-v2.0/blob/main/backend/commands.txt).
 
 Here is a simple overview diagram of this application's architecture:
 
@@ -14,17 +14,17 @@ Here is a simple overview diagram of this application's architecture:
 ### Features of the project:
 Frontend backed by Next.js giving optimized server side rendering
   
-Clean design and Responsive pages
+Clean design and responsive pages.
   
-Form validations and proper error handling
+Form validations and proper error handling.
   
-Proper log maintenance of each step
+Detailed log visualization of each step.
   
-Dockerized application makes easy to install and launch within minutes
+Dockerized application makes app easy to install and launch within minutes.
   
-Made with keeping scalibilty in mind
+Made with keeping scalibilty in mind.
   
-Focused on application security
+Focused on application security.
   
   
 ### Technologies
