@@ -10,6 +10,23 @@ Here is a simple overview diagram of this application's architecture:
 
 ![Architecture Diagram](https://github.com/LevonAr/canoo-app-v1.0/blob/main/CanooDiagram.svg)
   
+
+### Features of the project:
+Frontend backed by Next.js giving optimized server side rendering
+  
+Clean design and Responsive pages
+  
+Form validations and proper error handling
+  
+Proper log maintenance of each step
+  
+Dockerized application makes easy to install and launch within minutes
+  
+Made with keeping scalibilty in mind
+  
+Focused on application security
+  
+  
 ### Technologies
   
 ![](https://img.shields.io/badge/Python-Language-informational?style=for-the-badge&logo=python&logoColor=white&color=2bbc8a)
